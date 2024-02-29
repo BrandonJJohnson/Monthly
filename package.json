@@ -17,7 +17,7 @@
       "images/*.{png,gif,svg,jpg}"
     ],
     "dependencies": {
-      "jquery": "^3.7.1"
+      "jquery": "^1.12.4"
     },
     "devDependencies": {
         "clean-webpack-plugin": "~4.0.0",
@@ -27,7 +27,7 @@
         "html-webpack-plugin": "~5.6.0",
         "mini-css-extract-plugin": "~2.8.0",
         "style-loader": "~3.3.4",
-        "remove-files-webpack-plugin" : "~1.5.0",
+        "remove-files-webpack-plugin" : "1.5.0",
         "webpack": "~5.90.3",
         "webpack-cli": "~5.1.4"
       }

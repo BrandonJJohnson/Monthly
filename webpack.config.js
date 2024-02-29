@@ -19,13 +19,6 @@ var cssFiles = [
 ];
 
 var rules = {
-    jqueryRule: {
-        test: require.resolve('jquery'),
-        loader: 'expose-loader',
-        options: {
-            exposes: ['$', 'jQuery']
-        }
-    },
     cssRule: {
         test: /\.css$/,
         use: ['style-loader', 'css-loader']
